@@ -1,0 +1,55 @@
+= TW_Lang_VisualBasic - VisualBasic.net language module for TextWrangler
+
+== Introduction
+
+This is a language module for syntax highlighting VisualBasic.NET in BareBones TextWrangler (http://www.barebones.com/products/textwrangler/).
+TextWrangler is a Mac OSX Application.
+
+== Installation
+
+1. Close TextWrangler if it is running.
+2. Open your Applications folder in Finder.
+2. Right click on TextWrangler and select "Show Package Contents" from the menu.
+3. Navigate from there to "Contents/Language Modules".
+4. Copy the file "VisualBasic.plist" to this folder.
+
+== Usage
+
+You can now switch syntax highlighting to VisualBasic in "Text Options" menu, or associate 
+".vb" files with this language file.
+
+Here are instructions to do so:
+1. Open "Preferences" in the TextWrangler menu
+2. Select "Languages"
+3. Click "Add..." button on the right
+4. Set extension to ".vb", Map to "Visual Basic" and "Neither" source/include file, click "add".
+
+That's it. From now on, all .vb files should open with correct Syntax highlighting.
+
+== Author
+
+* Guido Pinkas
+
+== License
+
+The MIT License
+
+Copyright (c) 2010 Guido Pinkas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. 
